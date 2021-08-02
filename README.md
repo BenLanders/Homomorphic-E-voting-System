@@ -1,5 +1,5 @@
 # e-voting
-This is a simple implementation of an e-voting system that uses the Pallier homomorphic cryptosystem.
+This is a simple implementation of an e-voting system. The purpose of the program is to demonstrate the homomorphic properties of the Pallier cryptosystem. Each vote is encrypted in the local database and tallied in its encrypted form. The result is decrypted after the votes have been tallied, thus preserving the privacy of each voter. 
 
 INSTRUCTIONS
 1. Run 'create_voting_database.py' to create a local sql database to store credentials and votes.
